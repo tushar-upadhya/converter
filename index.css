@@ -1,71 +1,38 @@
-* {
+*{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-.wrapper {
-    width: 70%;
-    margin: 100px auto;
-    box-shadow: 0px 6px 12px grey;
-    padding: 50px 20px;
-    text-align: center;
-    border-radius: 7px;
+body{
+    background-color: #212121 ;
+}
+.container{
+    background-color:#424242;
+    width: 420px;
+    height: 350px;
+    margin: 50px auto;
+    border-radius: 5px;
+    color:#fff;
+    padding: 30px 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.input {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 50px;
-}
-
-select {
-    padding: 4px 8px;
-    border-radius: 8px;
+input[type=text]{
+    width: 280px;
+    height: 35px;
+    border-radius: 2px;
     border: none;
-    box-shadow: 0px 2px 4px cornflowerblue;
-    font-size: 16px;
-    font-weight: 500;
-    width: 80%;
-    margin: auto;
-    outline: none !important;
 }
-
-.inputField {
-    padding: 4px 8px;
-    border-radius: 8px;
-    border: none;
-    box-shadow: 0px 2px 4px cornflowerblue;
-    font-size: 16px;
-    font-weight: 500;
-    width: 80%;
-    margin: auto;
-    outline: none !important;
+#base{
+    width: 280px;
+    height: 35px;
+    border-radius: 2px;
 }
-
-.w-100 {
-    width: 100%;
-}
-
-#input-number {
-    width: 50%;
-    font-size: 1rem;
-}
-
-button {
-    padding: 8px 12px;
-    border-radius: 6px;
-    background-color: blue;
-    color: whitesmoke;
-    margin: none 12px;
-    border: none;
-    font-weight: 500;
-    font-size: 0.9rem;
-}
-
-button :hover {
-    box-shadow: 0px 2px 4px cadetblue;
-}
-
-#result-box {
-    color: steelblue;
-    font-size: 1.7rem;
-    font-weight: 600;
+#btnConvert{
+    width: 280px;
+    height: 35px;
+    background-color:#212121;
+    color:#fff;
+    border: darkseagreen 0px solid;
+    border-radius: 2px;
 }
