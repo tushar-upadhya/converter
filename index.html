@@ -4,25 +4,25 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Coverter</title>
+        <title>Converter</title>
         <link rel="stylesheet" href="/index.css" />
     </head>
     <body>
         <div class="wrapper">
-            <h1>Converter</h1>
-            <div class="inputs">
-                <!-- From Dropdown -->
+            <div class="input">
+                <!-- From dropdown -->
                 <div class="w-100">
-                    <select id="from" class="input-field">
+                    <select id="from" class="inputField">
                         <option value="2">Binary</option>
                         <option value="8">Octal</option>
                         <option value="10">Decimal</option>
                         <option value="16">HexaDecimal</option>
                     </select>
                 </div>
-                <!-- To Dropdown -->
+
+                <!-- To dropdown -->
                 <div class="w-100">
-                    <select id="to" class="input-field">
+                    <select id="to" class="inputField">
                         <option value="2">Binary</option>
                         <option value="8">Octal</option>
                         <option value="10">Decimal</option>
@@ -30,24 +30,22 @@
                     </select>
                 </div>
             </div>
-            <!-- Input Field -->
+
+            <!-- input field -->
             <div class="w-100">
                 <input
                     id="input-number"
                     type="text"
-                    placeholder="Enter your number"
-                    class="input-field"
+                    placeholder="enter"
+                    class="inputField"
                 />
             </div>
 
-            <!-- Buttons -->
-
+            <!-- button -->
             <div style="margin-top: 40px">
-                <button id="convert">Convert</button>
-                <button id="swap">Swap</button>
+                <button id="Convert">Convert</button>
+                <button id="Swap">Swap</button>
             </div>
-
-            <!-- Result Box -->
 
             <div id="result-box"></div>
         </div>
